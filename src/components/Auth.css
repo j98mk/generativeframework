@@ -116,3 +116,20 @@
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.forgot-password-btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: none;
+  color: #888;
+  border: none;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-bottom: 0.5rem;
+  text-align: right;
+}
+
+.forgot-password-btn:hover:not(:disabled) {
+  color: #646cff;
+}

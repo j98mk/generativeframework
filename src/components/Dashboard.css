@@ -31,6 +31,21 @@
   font-size: 0.95rem;
 }
 
+.mfa-btn {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mfa-btn:hover {
+  background-color: #218838;
+}
+
 .logout-btn {
   padding: 0.5rem 1.25rem;
   background-color: #646cff;
